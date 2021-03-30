@@ -135,7 +135,8 @@ function loadDocument(url) {
 	var t = event.target;
 	if (t.classList.contains("active")) return false;
 	
-	url = "/"+ Page[0] + "/" + url;
+	// url = "/"+ Page[0] + "/" + url;
+	url = Page[0] + "/" + url;
 	fetch(url)
 	.then(response => response.text())
 	.then((data) => {
