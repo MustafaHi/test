@@ -56,7 +56,7 @@ const styleList = [{
 
 const Setup = {
 	title: "Docs.space ",
-	path: "http://127.0.0.1:5500/",
+	path: "https://mustafahi.github.io/test/",
 	header: true,
 	search: true,
 	theme : true,
