@@ -93,7 +93,7 @@ function setup() {
 	setupNav(Page[1]);
 	document.getElementById("Title").innerHTML = Setup.title;
 	var HTML = "";
-	Setup.pages.forEach((p) => {HTML += '<a href="/'+p[0]+'">'+p[0]+'</a>';});
+	Setup.pages.forEach((p) => {HTML += '<a href="'+p[0]+'">'+p[0]+'</a>';});
 	document.getElementById("Pages").innerHTML = HTML;
 	if (Setup.social) {
 		HTML = "";
