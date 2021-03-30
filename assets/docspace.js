@@ -136,7 +136,7 @@ function loadDocument(url) {
 	if (t.classList.contains("active")) return false;
 	
 	// url = "/"+ Page[0] + "/" + url;
-	url = Page[0] + "/" + url;
+	url = "./" + Page[0].toLowerCase() + "/" + url;
 	console.log(url);
 	fetch(url)
 	.then(response => response.text())
