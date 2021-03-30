@@ -160,7 +160,7 @@ function loadDocument(url) {
 	// router.updatePageLinks();
 	document.querySelector("li.active")?.classList.toggle("active", false);
 	t.classList.toggle("active", true);
-	if (!FL || !hashID) window.history.replaceState(url, "loadDoc", "/" + Page[0] + "/" + t.innerText);
+	// if (!FL || !hashID) window.history.replaceState(url, "loadDoc", "/" + Page[0] + "/" + t.innerText);
 	document.title = Setup.title + t.innerText;
 	return true;
 }
