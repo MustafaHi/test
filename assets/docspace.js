@@ -137,6 +137,7 @@ function loadDocument(url) {
 	
 	// url = "/"+ Page[0] + "/" + url;
 	url = Page[0] + "/" + url;
+	console.log(url);
 	fetch(url)
 	.then(response => response.text())
 	.then((data) => {
